@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.admit-card-box .admit-card-bg {
+    background-image: url(../image/demo.png);
+    width: 600px;
+    background-position: top;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.admit-card-contant .student-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.student-info .student-images {
+    width: 30%;
+    text-align: right;
+}
+
+.student-info .student-images img {
+    width: 120px;
+}
+
+.personal-info address p {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.personal-info address {
+    margin: 0;
+}
+
+.admit-card-contant .educational-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.educational-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.signature-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* hhh */
+
+.admit-card-contant .card-header {
+    text-align: center;
+}
+
+.admit-card-contant .brand-logo img {
+    width: 120px;
+}
+
+.admit-card-contant .brand-name h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #444;
+    margin: 10px 0;
+}
+
+.admit-card-contant .brand-name h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #444;
+    margin: 10px 0;
+}
+
+.sublist-list table tr td {
+    padding: 5px;
+    border: 1px solid #bfbfbf;
+    font-size: 14px;
+}
+
+.sublist-list table tr th {
+    padding: 5px;
+    border: 1px solid #bfbfbf;
+    font-size: 14px;
+}
+
+.sublist-list h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+}
+
+.signature-section .signature p {
+    margin: 0;
+    border-top-style: dashed;
+    border-color: #bfbfbf;
+    font-size: 15px;
+}
+
+.signature-section {
+    margin-top: 50px;
+}
+
+.admit-card-contant .card {
+    background: #c8c8c8ad;
+    padding: 25px;
+}
+
+.admit-card-contant .card-body {
+    padding: 0 15px;
+}
+
+
+
+@media print {
+
+    .admit-card-box .admit-card-bg {
+        background-image: url(../image/demo.png);
+        width: 600px;
+        background-position: top;
+        background-size: 100%, 100%;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .admit-card-contant .student-info {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .student-info .student-images {
+        width: 30%;
+        text-align: right;
+    }
+
+    .student-info .student-images img {
+        width: 120px;
+    }
+
+    .personal-info address p {
+        font-size: 13px;
+        margin: 5px 0;
+    }
+
+    .personal-info address {
+        margin: 0;
+    }
+
+    .admit-card-contant .educational-info {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+
+    .educational-info p {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .signature-section {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    /* hhh */
+
+    .admit-card-contant .card-header {
+        text-align: center;
+    }
+
+    .admit-card-contant .brand-logo img {
+        width: 120px;
+    }
+
+    .admit-card-contant .brand-name h1 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #444;
+        margin: 10px 0;
+    }
+
+    .admit-card-contant .brand-name h5 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #444;
+        margin: 10px 0;
+    }
+
+    .sublist-list table tr td {
+        padding: 5px;
+        border: 1px solid #bfbfbf;
+        font-size: 14px;
+    }
+
+    .sublist-list table tr th {
+        padding: 5px;
+        border: 1px solid #bfbfbf;
+        font-size: 14px;
+    }
+
+    .sublist-list h4 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #444;
+    }
+
+    .signature-section .signature p {
+        margin: 0;
+        border-top-style: dashed;
+        border-color: #bfbfbf;
+        font-size: 15px;
+    }
+
+    .signature-section {
+        margin-top: 50px;
+    }
+
+    .admit-card-contant .card {
+        background: #c8c8c8ad;
+        padding: 25px;
+    }
+
+    .admit-card-contant .card-body {
+        padding: 0 15px;
+    }
+
+}
